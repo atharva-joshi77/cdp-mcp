@@ -8,13 +8,13 @@ Built because clicking through CDP screens at 2 AM isn't anyone's idea of fun.
 
 ## What you get
 
-- **~300 tools** spanning permissions, the data warehouse, campaigns, config, connectors, reports, predictions, mailer, emailable pages, segments, security, cache, and status APIs
+- **~300 tools** spanning permissions, the data warehouse, campaigns, config, connectors, reports, predictions, mailer, emailable pages, security, cache, and status APIs — see [`SUPPORTED_TOOLS.md`](./SUPPORTED_TOOLS.md) for the full catalogue
 - **8 playbook resources** that teach the LLM how to sequence real multi-step flows (campaign wizard, C360 profile render, workflow authoring, connector onboarding, UDMP schema edits, etc.) — these came from reverse-engineering the Vega and Config UIs so the model stops guessing
 - **Two auth modes**: OAuth2 password grant (auto-refreshed, 401-retried, lock-serialized) or a static bearer token if you already have one
 - **Dev / QA / Prod** switch via a single `CDP_ENVIRONMENT` variable
 - Stdio transport, so it drops straight into Claude Desktop, VS Code Copilot, Continue, mcphost, Open WebUI (via supergateway), or MCP Inspector
 
-If the above sounds like alphabet soup, skim [`TUTORIAL.md`](./TUTORIAL.md) — it walks through every piece with copy-pasteable commands.
+If the above sounds like alphabet soup, skim [`TUTORIAL.md`](./TUTORIAL.md) — it walks through every piece with copy-pasteable commands. For the full list of tool names and what each one does, see [`SUPPORTED_TOOLS.md`](./SUPPORTED_TOOLS.md).
 
 ---
 
