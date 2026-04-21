@@ -161,7 +161,7 @@ python3 -c "from cdp_mcp.server import create_server; import asyncio; \
   print(len(asyncio.run(create_server().list_tools())))"
 ```
 
-There's a fuller troubleshooting matrix (server-won't-start, 401s, client-can't-connect, etc.) in [`TUTORIAL.md §9`](./TUTORIAL.md#9-troubleshooting). The full remediation history and endpoint coverage audit lives in [`MCP_AUDIT.md`](./MCP_AUDIT.md) if you want to understand *why* things are wired the way they are.
+There's a fuller troubleshooting matrix (server-won't-start, 401s, client-can't-connect, etc.) in [`TUTORIAL.md §9`](./TUTORIAL.md#9-troubleshooting).
 
 ---
 
