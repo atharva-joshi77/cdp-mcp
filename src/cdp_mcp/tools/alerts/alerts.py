@@ -44,7 +44,7 @@ def register_alert_tools(server: FastMCP) -> None:
 
 # --------------------------------------------------------------------------- #
 # Preserved legacy implementation. DO NOT call until a correct Alerts API
-# base URL + auth scheme is configured (see MCP_AUDIT.md §4.2, §5.1).
+# base URL + auth scheme is configured.
 # --------------------------------------------------------------------------- #
 
 

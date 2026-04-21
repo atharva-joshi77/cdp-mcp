@@ -26,7 +26,7 @@ Path-style reference
                       this layout. The historical predictions/alerts modules
                       that relied on it have been rewritten / disabled.
                       Kept only for backward compatibility; do not use in new
-                      code. See MCP_AUDIT.md §4.4.
+                      code.
 """
 
 from __future__ import annotations

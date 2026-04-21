@@ -179,7 +179,7 @@ There's a fuller troubleshooting matrix (server-won't-start, 401s, client-can't-
 
 1. Fork, branch, hack.
 2. Run `./gradlew-equivalent` — fine, just `pip install -e .` and the smoke test above.
-3. If you add a tool, wire it into the matching `tools/<area>/__init__.py` registrar and bump the tool count in [`MCP_AUDIT.md`](./MCP_AUDIT.md).
+3. If you add a tool, wire it into the matching `tools/<area>/__init__.py` registrar.
 4. If you add a multi-step flow, write a playbook for it under `src/cdp_mcp/docs/` and register the resource in `resources/resource_providers.py`.
 5. Open a PR. Be nice in the description.
 

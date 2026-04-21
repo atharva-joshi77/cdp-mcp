@@ -234,7 +234,7 @@ def create_server() -> FastMCP:
     register_status_tools(server)
     register_provisions_tools(server)
 
-    # Phase 9: Additional CDP services (P2 coverage gaps — see MCP_AUDIT.md §5.1)
+    # Phase 9: Additional CDP services
     register_emailable_pages_tools(server)
     register_mailer_tools(server)
 
