@@ -169,7 +169,6 @@ There's a fuller troubleshooting matrix (server-won't-start, 401s, client-can't-
 
 - Tool count: **301** across 12 CDP services
 - Playbook resources: **8**
-- All P0 / P1 / P2 audit items from [`MCP_AUDIT.md`](./MCP_AUDIT.md) resolved
 - Alerts tools are intentionally stubbed — the real Alerts API lives on a separate MuleSoft/Go stack that needs its own base URL and auth (PRs welcome)
 - Integration test harness is a work in progress (scaffolding present, full contract coverage tracked as follow-up)
 

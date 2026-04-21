@@ -20,7 +20,7 @@ P0 audit finding (2026-04-20):
     Until that plumbing exists, `register_alert_tools()` is a no-op. The
     original tool implementations are preserved below under
     `_register_legacy_alert_tools` so they can be revived once a correct
-    target is configured. See MCP_AUDIT.md §4.2 for details.
+    target is configured.
 """
 
 from __future__ import annotations
